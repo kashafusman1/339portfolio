@@ -30,15 +30,12 @@ nav li a:hover {
     color: #dd5771;
 }
 
-a:visited{color:white}
+a:visited{color: white}
 
 nav ul{
     list-style-type: none;
     justify-content: space-between;
     padding: 10px;
-
-
-
 }
 
 body{
@@ -83,6 +80,16 @@ header h1, header p{
 
   }
 
+h2{
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    display: block;
+    font-family: 'Playfair Display', 'serif';
+
+}
+
 
 /* welcome page style */
 
@@ -105,19 +112,128 @@ header h1, header p{
 }  
 
 
+
+
 /* cuisine page style */
 
-.gallery-container{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0px;
-}
+
 
 .gallery-text-box{
-    grid-column: 1 / 3;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 200;
+
 }
+
+#cuisine{
+    padding: 20px; 
+    background: rgb(238, 237, 237);
+    width: inherit;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+
+
+/* gallery style */
+
+/* #cf {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    padding-bottom: 300px;
+    
+  }
+  
+  #cf img {
+    position: absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  } */
+
+
+.container-r{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-row-gap: 50px;
+
+}
+.cuisine-format{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 1fr));
+    grid-auto-rows: auto 350px;
+    justify-content: center;
+    align-self: center;
+}
+
+.pitak-image img, .casablanca-image img, .tasteofindia-image img, .cardamom-image img, .babadari-image img, .madras-image img, .shalimar-image img, .once-image img, .ahmos-image img{
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pitak-image, .casablanca-image, .tasteofindia-image, .cardamom-image, .babadari-image, .madras-image, .shalimar-image, .once-image, .ahmos-image{
+    width: 100px;
+    height: 100px;
+    margin: 32px 40x 40px 40px;
+
+}
+.pitak, .casablanca, .tasteofindia, .cardamom, .babadari, .madras, .shalimar, .once, .ahmos{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 30px;
+  
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+
+/* review page style */
+
+
+.yelp{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-height: 100px;
+    max-width: 200px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.yelp-container{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-row-gap: 50px;
+
+}
+
+
 
 
 
