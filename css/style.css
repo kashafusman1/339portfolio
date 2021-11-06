@@ -8,6 +8,28 @@ body{
     font-family: 'Georgia ', sans-serif;
     padding: 0;
 } 
+
+
+a.skip{
+    background: black;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+
+a:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+    
+}
+
+
 /* nav bar style */
 
 nav {
@@ -22,6 +44,7 @@ nav {
 }
 nav li {
     display: inline;
+    font-size: 20px;
     font-family: cursive;
 
     
@@ -42,8 +65,7 @@ body{
 	margin: 1%;
 	padding: 1%;
     font-size: 100%;
-    background-color: darkgray;
-
+    background-color: rgb(211,211,211);
 }
 
 /* header and headings style */
@@ -87,8 +109,36 @@ h2{
     text-align: center;
     display: block;
     font-family: 'Playfair Display', 'serif';
-
 }
+
+#onpage{
+    color: #ffffff;
+    border-bottom: 6px solid lightslategray;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* welcome page style */
